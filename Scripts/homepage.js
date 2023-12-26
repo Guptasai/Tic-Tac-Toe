@@ -51,7 +51,7 @@ function eventListeners(){
     image.src = imgTag.src;
     image.alt = imgTag.alt;
     event.target.appendChild(image);
-    event.target.className = (imgTag.src==xImg)?"X":"O";
+    event.target.className = (imgTag.getAttribute("src")==xImg)?"X":"O";
     check(event.target);
     changeTurn();
     event.target.removeEventListener("click",play)
