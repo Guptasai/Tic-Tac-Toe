@@ -1,0 +1,14 @@
+img{
+    width: 136px;
+    height: 136px;
+}
+span{
+    display: inline-block;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    vertical-align: top;
+}
+button{
+    display: none;
+}
